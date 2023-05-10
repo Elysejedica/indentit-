@@ -70,7 +70,7 @@ button.onclick = function() {
     }
    
 }
-k
+
 function reset() {
     nom.value = "";
     prenom.value = ""; 
@@ -81,6 +81,7 @@ function reset() {
     tapeCin.value = "";
     tapeAge.value = "";
 }
+
 
 const darkBtn = document.getElementById("reglage");
 let isDarkMode = false;
@@ -96,6 +97,3 @@ darkBtn.onclick = function () {
     }
     
 }
-
-
-k
