@@ -70,7 +70,7 @@ button.onclick = function() {
     }
    
 }
-
+k
 function reset() {
     nom.value = "";
     prenom.value = ""; 
@@ -82,4 +82,20 @@ function reset() {
     tapeAge.value = "";
 }
 
+const darkBtn = document.getElementById("reglage");
+let isDarkMode = false;
 
+darkBtn.onclick = function () {
+    let mode = document.querySelector('body');
+    if (isDarkMode) {
+        mode.classList.remove('dark');
+        isDarkMode = false;  
+    } else {
+        mode.classList.add( 'dark');
+        isDarkMode = true;
+    }
+    
+}
+
+
+k

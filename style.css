@@ -1,0 +1,150 @@
+body {
+    margin: 50px 20px 20px 50px;
+
+}
+
+
+.info {
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(8, 8, 8);
+    margin-left: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    padding: 3px 20px 3px 20px;
+}
+
+body {
+    margin: 50px 0px 20px 170px;
+}
+
+h1 {
+    margin-left: 56px;
+}
+
+.luminosite {
+    color: black;
+    justify-content: flex-end;
+    display: flex;
+    /* margin-bottom: 60px; */
+}
+
+body.dark {
+    background-color: black;
+    background-image: none;
+}
+
+.dark .info{
+    background-color: grey;
+}
+
+.dark.info {
+    background-color: rgb(90, 88, 88);
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: #f0f0ff;
+}
+
+.dark #reglage {
+    color: white;
+}
+
+.dark #name {
+    background-color: gray;
+    color: white;
+}
+
+.dark #firstname {
+    background-color: gray;
+    color: white;
+}
+
+.dark #identity {
+    background-color: gray;
+    color: white;
+}
+
+.dark #hold {
+    background-color: gray;
+    color: white;
+}
+
+.dark #nom_span{
+    color: white;
+}
+
+.dark #prenom_span{
+    color: white;
+}
+
+.dark #cin_span{
+    color: white;
+}
+
+.dark #age_span{
+    color: white;
+}
+
+.dark .form-label{
+    color: white;
+}
+
+.dark .partie{
+    color: white;
+}
+
+.dark .place{
+    color: white;
+}
+
+.dark #tape_nom{
+    color: white;
+}
+
+.dark #tape_prenom{
+    color: white;
+}
+
+.dark #tape_cin{
+    color: white;
+}
+
+.dark #tape_age{
+    color: white;
+}
+
+.dark #tablette{
+    color: #0a0ae2;
+}
+
+@media screen and (max-width:760px) {
+
+    body {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    table {
+        margin: 0;
+    }
+
+    th {
+        padding: 3px 5px 3px 5px;
+    }
+}
